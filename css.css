@@ -1,0 +1,157 @@
+body{
+margin:0;
+padding:0;
+}
+@media only screen and (max-width:768px){
+	.mslyd{
+		width:100% !important;
+		margin:0 !important;
+		height:400px !important;
+	}
+	#mslimg{
+	width:100% !important;
+	height:400px !important;
+	}
+	.mslydp{
+		width:100% !important;
+		top:405px !important;
+		left:0 !important;
+	}
+	#comimg{
+		width:250px !important;
+		height:250px !important;
+	}
+	.comimgs{
+		width:200px !important;
+		height:200px !important;
+	}
+	.footer{
+		height:310px !important;
+	}
+}
+.mslyd{
+	margin-top:20px;
+	width:80%;
+	margin-left:10%;
+	height:750px;
+	text-align:center;
+}
+.mslydp{
+	position:absolute;
+	width:80%;
+	text-align:center;
+	left:10%;
+	top:727px;
+	background:rgba(0,0,0,0.5);
+	padding:10px 0;
+}
+.msln{
+	text-align:center;
+	transition:0.3s;
+	background:white;
+	color:#4285f4;
+	border:1px solid #4285f4;
+	border-radius:100%;
+	display:inline-block;
+	width:30px;
+	height:30px;
+	padding-top:3px;
+	font-size:14px;
+	cursor:pointer;
+}
+.msln:hover{
+	background:white;
+	border:1px solid black;
+	color:black;
+}
+#mslimg{
+	transition:0.3s;
+	width:100%;
+	height:700px;
+}
+hr{
+	margin:20px 10%;
+	border:0.5px solid black;
+}
+#commands{
+	width:100%;
+	background:white;
+	color:#4285f4;
+	transition:0.3s;
+}
+#comt{
+	width:100%;
+	font-size:32px;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+#comd{
+	width:60%;
+	font-size:20px;
+	text-align:left;
+	display:inline-block;
+}
+#comi{
+	display:inline-block;
+	width:39%;
+	text-align:center;
+}
+#comimg{
+	width:300px;
+	height:300px;
+}
+#comms{
+	background:white;
+	margin-top:20px;
+	padding-top:20px;
+	width:100%;
+	text-align:center;
+}
+.comimgs{
+	display:inline-block;
+	width:250px;
+	height:250px;
+	transition:0.3s;
+	border:1px solid white;
+	cursor:pointer;
+}
+.comimgs:hover{
+	border:1px solid black;
+	border-radius:25%;
+}
+.footer{
+	width:100%;
+	height:720px;
+	background:url(../img/footer.png) no-repeat;
+	background-size:cover;
+	text-align:center;
+}
+#fotcon{
+width:100%;
+text-align:center;
+transition:0.3s;
+color:white;
+font-size:22px;
+margin-top:50px;
+}
+#formi input[type=text]{
+	font-size:18px;
+	margin-left:30px;
+	display:inline-block;
+}
+#formi input[type=button]{
+	font-size:16px;
+	transition:0.3s;
+	background:black;
+	border:1px solid white;
+	text-align:center;
+	padding:5px;
+	color:white;
+}
+#formi input[type=button]:hover{
+	border-radius:20px;
+	border:1px solid black;
+	background:white;
+	color:black;
+}
